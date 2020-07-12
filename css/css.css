@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+  
+body {
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.nav-link{
+  font-size: 18px;
+}
+
+.logo_site {
+  height: 5em;
+}
+
+
+
+.texto_principal {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 40%;
+  width: 50%;
+  line-height: 30px;
+  height: 300px;
+  font-size: 150px;
+  margin-left: 25%;
+  
+
+}
+
+.about-container p{
+  font-size: 19px;
+  text-align: justify;
+}
+
+
+.h1 {
+  font-weight: bold;
+}
+
+.section-contato{
+  border: 5px;
+
+}
+.section-contato img {
+  max-width: 45px;
+  max-height: 45px;
+  margin-right: 10px;
+  margin-top: 15px;
+
+}
+
+
+
+.form-cadastro{
+  height: 80%;
+}
+.area-form{
+  height: 70%;
+}
+*{
+  padding:0px;
+  margin: 0;
+}
+section{
+  margin:50px auto;
+  width: 1025px;
+  height: 150px;
+}
+
+.section-trabalheConosco{
+  margin: 5%;
+
+}
+.rodape{
+  margin-top: auto;
+}
+
+.bg-color{
+  background-color: #F7F8F9;
+}
+.form-cadastro{
+  height: 80%;
+}
+.area-form{
+  height: 70%;
+}
+*{
+  padding:0px;
+  margin: 0;
+}
+section{
+  margin:50px auto;
+  width: 1025px;
+  height: 150px;
+}
+
+.section-trabalheConosco{
+  margin: 3%;
+
+}
+#rodape{
+  margin-top: auto;
+}
+
+.info{
+  margin-left: 10% ;
+}
+.info-container p{
+  font-size: 22px;
+    
+}
+
+
+
+
+.botao-saiba{
+  padding: 12px 50px;
+  background-color: darkgray;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-saiba a:hover{
+  border-color: black; 
+  color: black; 
+  background-color: lightslategray;
+}
+
+.section-equipe{
+  margin-top: 5%;
+}
+
+.servicos-container{
+  margin-left: 3%;
+}
+
+.equipe{
+  margin-top: 4%;
+}
+
+.equipe-container img{
+  width: 180px; 
+  height: 200px; 
+  border-radius: 50%;
+}
+
+.rodape{
+  margin-top: 1500px;
+}
+
+
+@media (min-width: 768px) and (max-width:1000px) {
+ 
+  .section-about{
+    margin-top: 10px;
+  }
+
+  .section-about p{
+    text-align: justify;
+  }
+
+  .about-container p{
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .text-home{
+    margin-top: 8px;
+  }
+
+  .bg-color{
+  background-color: #F7F8F9;
+  }
+
+  .servicos-container{
+    margin-left: 12%;
+  }
+
+  .info{
+    margin-left: 0% ;
+  }
+  .info-container{
+    width: 100%;
+    position: relative;
+      
+  }
+  .info-container p{
+    font-size: 23px;
+      
+  }
+ 
+  .equipe{
+    margin-left: 8%;
+  }
+  
+
+}
+/* MEDIA QUERIE
+
+https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries
+
+*/
